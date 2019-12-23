@@ -27,7 +27,7 @@ class SearchService extends BaseService {
                 $xml: '<data allRequiredFilled="true"><binding type="text" name="cisearch_dynamic:fa_type__varchar|1:or_group_10318:1" restriction="=" value="'+typeName+'"  /><binding name="cisearch_dynamic:id__varchar|1:or_group_980011:1" value="" restriction="=" /><binding name="cisearch:zonechooser_enabled" type="" value="N" /><binding name="cisearch:union" value="N" /><binding  name="cisearch:classes"><item  value="STCDEV_DEVICE"  /><item  value="STCDEV_MODULE" /></binding><binding type="text" name="cisearch:classification" icon="" value="611BGI14K70GP9"/></data>'
             },
             caseSensitive : this.createBooleanAttribute(false),
-            maxResults : this.createIntAttribute(200)
+            maxResults : this.createIntAttribute(500)
         };
 
         return this.client.then((client) => {
