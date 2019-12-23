@@ -1,0 +1,17 @@
+{
+  "name": "cmd-type-changer",
+  "version": "1.0.0",
+  "description": "bulk change of FNT Command Type",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carsten Buchberger <c.buchberger@witcom.de>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "soap": "^0.30.0",
+    "typed-error": "^3.2.0",
+    "typy": "^3.3.0"
+  }
+}
